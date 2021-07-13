@@ -1,3 +1,8 @@
+const app = require('express')();
+app.get('/', (req, res) => {
+    res.send('');
+});
+const keep_alive = require("./keep-alive.js")
 const DBD = require("aoi.js");
 const bot = new DBD.Bot({
   token: process.env.token,
