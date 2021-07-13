@@ -11,7 +11,12 @@ const bot = new DBD.Bot({
 bot.onMessage()
 bot.onJoined()
 bot.onLeave()
+/*
+Replittekiler için bilgilendirme:
+açılan .replit ve LİCENSE dosyalarını silin.
 
+Onun dışında 7/24 yapmak için "web" kısmındaki linki kopyalayıp uptime robot vb sitelerde kullanabilirsiniz.
+*/
 bot.command({
 name: "ping",
 code:`$ping`
